@@ -1,0 +1,20 @@
+@import "../../../settings/basicStyles.scss";
+
+.inputWrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: $primary-font-color;
+}
+
+.controlWrapper {
+  display: flex;
+  justify-content: center;
+  color: $basic-control-color;
+
+}
+
+.controlWrapper svg {
+  cursor: pointer;
+}

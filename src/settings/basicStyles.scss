@@ -1,0 +1,12 @@
+$primary-background-color: rgba(25, 238, 238, 0.9);
+$primary-font-color: black;
+$secondary-font-color: white;
+$basic-margin: 0;
+$basic-control-color: red;
+%basic-wrapper {
+  position: absolute;
+  top: $basic-margin;
+  left: $basic-margin;
+  bottom: $basic-margin;
+  right: $basic-margin;
+}

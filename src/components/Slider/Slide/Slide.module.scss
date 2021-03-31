@@ -1,0 +1,33 @@
+@import "../../../settings/basicStyles.scss";
+
+body {
+  text-align: center;
+  background-color: $primary-background-color;
+}
+
+.imgWrapper {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  margin: 50px auto;
+}
+
+.slideImg {
+  @extend %basic-wrapper;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(60, 87, 62);
+}
+
+.figCaption {
+  @extend %basic-wrapper;
+}
+
+.figCaption h2,
+.figCaption p {
+  margin: 0;
+  color: $secondary-font-color;
+}
